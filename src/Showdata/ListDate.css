@@ -1,0 +1,32 @@
+.list-date {
+  display: flex;
+  flex-direction: row;
+  width: 12rem;
+  height: 1.1rem;
+  border: 1px solid #ececec;
+  background-color: #1b021f;
+  color: rgb(241, 131, 103);
+  border-radius: 12px;
+  justify-content: space-between;
+  margin: 0 4px;
+  align-items: center;
+}
+
+.list-date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.list-date__year {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.list-date__day {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.list-date__time {
+  font-size: 0.75rem;
+  font-weight: bold;
+}

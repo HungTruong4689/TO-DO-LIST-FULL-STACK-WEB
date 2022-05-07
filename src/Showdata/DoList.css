@@ -1,0 +1,94 @@
+.list {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #230052;
+
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.list h2 {
+  font-size: 1rem;
+  color: #f7e702;
+}
+
+.list h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.list div {
+  display: flex;
+}
+.list p {
+  color: #ec65ec;
+}
+.list button {
+  color: #2c042c;
+  background-color: #949df0;
+}
+.list input {
+  width: 400px;
+  height: 30px;
+}
+.list2 {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #7859a1;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.list2 h2 {
+  font-size: 1rem;
+  color: #f7e702;
+}
+
+.list2 h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.list2 div {
+  display: flex;
+}
+.list2 p {
+  color: #3ac5d5;
+}
+.list2 button {
+  color: #2c042c;
+  background-color: #949df0;
+}
+.list2 input {
+  width: 400px;
+  height: 30px;
+}
+@media (max-width: 700px) {
+  .list input {
+    width: 300px;
+    height: 30px;
+  }
+  .list2 input {
+    width: 300px;
+    height: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .list input {
+    width: 200px;
+    height: 30px;
+  }
+  .list2 input {
+    width: 200px;
+    height: 30px;
+  }
+}

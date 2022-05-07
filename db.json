@@ -1,0 +1,35 @@
+{
+  "todolist": [
+    {
+      "name": "Rent a car",
+      "tag": "Transportation",
+      "lat": 16.23,
+      "long": 24.25
+    },
+    {
+      "name": "Buy a book",
+
+      "tag": "Reading",
+      "lat": 121.23,
+      "long": 24.45
+    },
+    {
+      "name": "Read a book",
+      "tag": "Reading",
+      "lat": 81.83,
+      "long": 25.45
+    },
+    {
+      "name": "Swimming",
+      "tag": "Sporting",
+      "lat": 61.83,
+      "long": 25.91
+    },
+    {
+      "name": "Listen to music",
+      "tag": "Relaxing",
+      "lat": 91.79,
+      "long": 27.45
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+* {
+  font-size: 3vh;
+}
+
+.list-date {
+  display: flex;
+  flex-direction: row;
+  width: 12rem;
+  height: 1.1rem;
+  border: 1px solid #ececec;
+  background-color: #1b021f;
+  color: rgb(241, 131, 103);
+  border-radius: 12px;
+  justify-content: space-between;
+  margin: 0 4px;
+  align-items: center;
+  transform: translateX(95%);
+}
+@media screen and (max-width: 800px) {
+  .list-date {
+    transform: translateX(50%);
+  }
+  * {
+    font-size: 3vh;
+  }
+}
+@media screen and (max-width: 628px) {
+  .list-date {
+    transform: translateX(45%);
+  }
+  * {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .list-date {
+    transform: translateX(40%);
+  }
+  * {
+    font-size: 2vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .list-date {
+    transform: translateX(55%);
+  }
+}
+@media screen and (max-width: 364px) {
+  .list-date {
+    transform: translateX(35%);
+  }
+}
+.list-date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.list-date__year {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.list-date__day {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.list-date__time {
+  font-size: 0.75rem;
+  font-weight: bold;
+}

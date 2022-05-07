@@ -1,0 +1,54 @@
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.header a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+}
+
+.header a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.header a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .header a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    text-align: center;
+    float: none;
+  }
+}

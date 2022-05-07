@@ -1,0 +1,20 @@
+.info {
+  font-size: 3vh;
+}
+@media screen and (max-width: 800px) {
+  .info {
+    font-size: 3vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .info {
+    font-size: 1vh;
+  }
+}
